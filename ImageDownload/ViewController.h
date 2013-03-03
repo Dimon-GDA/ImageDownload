@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)saveAction:(UIButton *)sender;
+@property (strong, nonatomic) IBOutlet UIImageView *image;
 
 @end
